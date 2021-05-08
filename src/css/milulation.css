@@ -1,0 +1,404 @@
+.otherPart{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #020317;
+    overflow: hidden;
+}
+
+#tabShow{
+    border-bottom: 2px solid #ffffff;
+}
+.tabBox{
+    display: none;
+    width: 100%;
+    height: 92%;
+    position: relative;
+}
+#boxShow{
+    display: block;
+}
+#fullBoxShow{
+    display: block;
+}
+.tabTitle{
+    width: 50%;
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+}
+.tarcksPart {
+    width: 70%;
+    height: 100%;
+    color: #fff;
+    /* display: none; */
+    position: absolute;
+    /* top: 100%; */
+}
+.m-percent-include {
+    width: calc(100% - 42px);
+    background: rgba(44, 53, 106, 0.3);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+#RightBottomBox {
+    width: 100%;
+    height: 88%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    overflow: auto;
+    color: #ffffff;
+    /* background-color: pink; */
+  }
+
+.m-percent-include .m-no-percent {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.m-bg-percent {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+}
+
+.m-percent{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2px;
+}
+
+h1{
+    font-size: 30px;
+    color:#fff;
+    text-align: left;
+}
+
+.funsion{
+    width: 98%;
+    height: 50%;
+    /* background-color: rgba(31, 44, 102,0.5); */
+    left: 1%;
+    position: relative;
+    margin-top: 0.6%;
+    background-color: rgba(83, 135, 214, 0.2);
+    background-image: url("../images/imgs/biankuang.png");
+    background-size: 100% 100%;
+}
+.tableTitle{
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    border-bottom: 1px solid #bdbdbd;
+}
+.tableOneBox{
+    width: 100%;
+    height: 88%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* overflow: auto; */
+    color: #ffffff;
+    display: none;
+}
+/* ---------------111---------------- */
+#tbodyOneTracks{
+    width: 100.5%;
+    /* border-collapse: collapse; */
+
+}
+#tbodyOneTracks td {
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    height: 24px;
+    font-size: 14px;
+  }
+.tableFirstBox{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 88%;
+    color: #ffffff;
+}
+.tableFirstBox::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .tableFirstBox::-webkit-scrollbar-track {
+    background: rgb(122, 122, 122);
+    border-radius: 2px;
+  }
+  
+  .tableFirstBox::-webkit-scrollbar-thumb {
+    background: rgb(205, 206, 207);
+    border-radius: 10px;
+  }
+  
+  .tableFirstBox::-webkit-scrollbar-thumb:hover {
+    background: #f8f8f8;
+  }
+  
+  .tableFirstBox::-webkit-scrollbar-corner {
+    background: #434b43;
+  }
+  /* -------------222------------------- */
+.tableTwoBox {
+    width: 100%;
+    height: 88%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    overflow: auto;
+    color: #ffffff;
+}
+
+.tableSecondBox{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 88%;
+    color: #ffffff;
+}
+
+.tableSecondBox::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .tableSecondBox::-webkit-scrollbar-track {
+    background: rgb(122, 122, 122);
+    border-radius: 2px;
+  }
+  
+  .tableSecondBox::-webkit-scrollbar-thumb {
+    background: rgb(205, 206, 207);
+    border-radius: 10px;
+  }
+  
+  .tableSecondBox::-webkit-scrollbar-thumb:hover {
+    background: #f8f8f8;
+  }
+  
+  .tableSecondBox::-webkit-scrollbar-corner {
+    background: #434b43;
+  }
+
+.TwoBoxDetail {
+    height: 8%;
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+.TwoBoxDetail thead tr th {
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    height: 26px;
+    background-color: rgba(199, 199, 199, 0.1);
+    font-size: 15px;
+    color: #ffffff;
+}
+#Gant {
+    width: 98%;
+    /* width: 92%; */
+    height: 80%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 4px;
+    overflow: auto;
+    color: #ffffff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+.oneBoxDetail{
+    width: 100%;
+    /* border-collapse: collapse; */
+    background-color: rgba(199, 199, 199, 0.1);
+}
+.oneBoxDetail td {
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    height: 24px;
+    font-size: 14px;
+    
+  }
+#tbodyOneTracks tr:nth-child(2n) {
+    background-color: rgba(199, 199, 199, 0.1);
+    /* background-color: #1D264F; */
+  }
+.oneBoxDetail thead tr th {
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    height: 26px;
+    background-color: rgba(199, 199, 199, 0.1);
+    font-size: 15px;
+    color: #ffffff;
+}
+.tracks{
+    width: 98%;
+    height: 30%;
+    /* background-color: rgba(31, 44, 102,0.5); */
+    left: 1%;
+    position: relative;
+    margin-top: 0.6%;
+    background-color: rgba(83, 135, 214, 0.2);
+    background-image: url("../images/imgs/biankuang.png");
+    background-size: 100% 100%;
+}
+.fusionsPart{
+    width: 30%;
+    height: 90%;
+    color:#fff;
+    /* display: none; */
+    position: absolute;
+    /* top:100%; */
+}
+.fusionContent{
+    width: 100%;
+    height: 88%;
+    box-sizing: border-box;
+    /* padding-left: 12px; */
+    padding-right: 12px;
+    /* padding-top: 4px; */
+    padding-bottom: 4px;
+    overflow: auto;
+    color: #ffffff;
+}
+
+.fusionContent::-webkit-scrollbar {
+    width: 6px;
+    height:6px;
+ 
+}
+
+.fusionContent::-webkit-scrollbar-track {
+    background: rgb(122, 122, 122);
+    border-radius: 2px;
+}
+
+.fusionContent::-webkit-scrollbar-thumb {
+    background: rgb(205, 206, 207);
+    border-radius: 10px;
+}
+
+.fusionContent::-webkit-scrollbar-thumb:hover {
+    background: #f8f8f8;
+}
+
+.fusionContent::-webkit-scrollbar-corner {
+    background: #434b43;
+}
+
+
+.fusionslibs {
+    width: 94%;
+    height: 100%;
+    /* background-color: pink; */
+    /* overflow: auto; */
+}
+
+.fusionslibs::-webkit-scrollbar {
+    width: 4px;
+    /* height:px; */
+    /**/
+}
+
+.fusionslibs::-webkit-scrollbar-track {
+        background: rgb(122, 122, 122);
+    border-radius: 2px;
+}
+
+.fusionslibs::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+.fusionslibs::-webkit-scrollbar-thumb:hover {
+    background: #f8f8f8;
+}
+
+.fusionslibs::-webkit-scrollbar-corner {
+    background: #434b43;
+}
+
+.fusionslibs li {
+    width: 100%;
+    height: 10%;
+    color: #ffffff;
+    
+    text-align: center;
+    background-color: rgba(240, 234, 234, 0.1);
+    list-style: none;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    padding-top: 4px;
+   /* font-family: "FZYaoti";*/
+    font-size: 15px;
+}
+.echartsBox{
+    /* width: 98%;
+    height: 30%;
+    /* background-color: rgba(31, 44, 102,0.5); */
+    position: relative;
+    left: 1%;
+     margin-top: 2%; 
+    /* background-color: rgba(148, 145, 145, 0.2); */
+    background-color: rgba(83, 135, 214, 0.2);
+    background-image: url("../images/imgs/biankuang.png");
+    background-size: 100% 100% 
+}
+.tableThree {
+    width: 98%;
+    height: 30%;
+    position: relative;
+    margin-top: 0.6%;
+    left: 1%;
+    background-color: rgba(83, 135, 214, 0.2);
+    background-image: url("../images/imgs/biankuang.png");
+    background-size: 100% 100%;
+}
+.colorBox {
+    width: 10%;
+    height: 100%;
+    background-image: url("../images/imgs/colorBox.png");
+    float: left;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 10px;
+  }
+
+  .ellipse {
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-image: url("../images/imgs/ellipse.png");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+    /* margin-left: 8%; */
+    position: absolute;
+    right: 2px;
+  }
